@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  position: relative;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.submit-btn {
+  background: green;
+}
+
+.result-box {
+  background: #eef;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.book-btn {
+  display:inline-block;
+  background:#ff6600;
+  color:white;
+  padding:8px 12px;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.book-btn:hover {
+  background:#cc5200;
+}
+
+.download-btn {
+  display:inline-block;
+  margin-top:10px;
+  background:#28a745;
+  color:white;
+  padding:8px 12px;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.download-btn:hover {
+  background:#1e7e34;
+}
+
+
+/* Horizontal student info */
+.info-row {
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin:15px 0;
+  font-weight:bold;
+}
+
+/* Breakdown */
+.breakdown {
+  text-align:center;
+  margin:20px 0;
+}
+
+/* Overall result box */
+.overall-box {
+  background:#eaf6ff;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  margin:20px 0;
+}
+
+/* Message box */
+.message-box {
+  background:#fff3cd;
+  padding:15px;
+  border-radius:10px;
+  margin:15px 0;
+  text-align:center;
+}
+
+/* CTA flashing */
+.cta-box {
+  text-align:center;
+  margin:20px 0;
+}
+
+.flash {
+  font-weight:bold;
+  color:red;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {opacity:1;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* LINE button */
+.line-btn {
+  display:inline-block;
+  padding:12px 20px;
+  background:#06c755;
+  color:white;
+  border-radius:8px;
+  text-decoration:none;
+  margin-top:10px;
+}
+
+/* Footer */
+.footer-text {
+  text-align:center;
+  margin-top:20px;
+  font-weight:bold;
+}
+
+/* LOGO POSITION */
+.logo-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* LOGO IMAGE */
+.logo-container img {
+  width: 80px;
+  height: auto;
+}
+
+.logo-container img {
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .logo-container img {
+    width: 80px;
+  }
+}
+
+.logo-container img {
+  width: 80px;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.2));
+}
